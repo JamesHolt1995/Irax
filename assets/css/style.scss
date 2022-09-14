@@ -1,5 +1,44 @@
+/*
+* Base styling for irax.
+*/
+
 @import './base/base.scss';
+@import './base/variables.scss';
 
 body {
-    background: rgb(199, 199, 199);
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--dark);
 }
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.1;
+    color: var(--dark);
+    margin-bottom: 0.4em;
+}
+
+p {
+    line-height: 1.7;
+}
+
+@media screen and (min-width: 1366px) {
+    p {
+        font-size: 20px;
+    }
+}
+
+//objects
+@import './objects/grid.scss';
+@import './objects/button.scss';
+@import './objects/header.scss';
+
+/*
+* Pages
+* This way of using css will be temporary
+* We will build blocks/template parts that load 
+* Independant stylesheets when the site is launched 
+*/
+@import './pages/holding-page.scss';

@@ -1,0 +1,38 @@
+.header {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+    &__svg {
+        height: 42px;
+    }
+
+    &__nav {}
+
+    &__nav-button {
+        &--a {
+            border-radius: 10px 0 0 10px;
+            margin-right: -5px;
+        }
+
+        &--b {
+            border-radius: 0 10px 10px 0;
+        }
+    }
+}
+
+@media screen and (min-width: 1366px) {
+
+    .header {
+        margin-bottom: 40px;
+        padding: 30px;
+
+        svg {
+            height: 50px;
+        }
+    }
+
+}

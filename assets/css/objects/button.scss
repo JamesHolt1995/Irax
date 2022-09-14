@@ -1,0 +1,29 @@
+.button {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--dark);
+    background-color: var(--bright);
+    padding: 0.6em 1em;
+    border-radius: 10px;
+
+    &:hover,
+    &:visited {
+        color: var(--dark);
+    }
+
+    &--dark {
+        background-color: var(--dark);
+        color: white;
+
+        &:hover,
+        &:visited {
+            color: white;
+        }
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .button {
+        font-size: 20px;
+    }
+}

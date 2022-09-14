@@ -13,4 +13,5 @@ Slightly edited version of: https://github.com/ahmadawais/WPGulp
 To start using this theme:
 
 $ npm install
+
 Then edit the wpgulp.config.js to your needs
