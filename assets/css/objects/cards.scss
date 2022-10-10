@@ -1,0 +1,55 @@
+.cards {
+    margin-top: -140px;
+
+    &__card {
+        grid-column: span 12;
+        box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.14);
+        -webkit-box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.14);
+        padding: 24px;
+        background-color: white;
+        border-radius: 8px;
+        transition: all 0.2s ease-out;
+
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.05);
+        }
+    }
+
+    &__title {
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+
+        &::after {
+            content: url(./assets/img/arrow.svg);
+            transform: rotate(-90deg);
+            position: absolute;
+        }
+    }
+
+    &__text {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    .cards {
+        &__card {
+            padding: 40px;
+        }
+
+        &__title {
+            font-size: 28px;
+        }
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .cards {
+        &__card {
+            grid-column: span 4;
+        }
+
+    }
+}

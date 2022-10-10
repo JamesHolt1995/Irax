@@ -10,7 +10,7 @@
 
 if (!defined('_S_VERSION')) {
 	// Replace the version number of the theme on each release.
-	define('_S_VERSION', '1.1.0');
+	define('_S_VERSION', '1.1.2');
 }
 
 /**
@@ -51,7 +51,7 @@ function irax_2022_setup()
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus(
 		array(
-			'menu-1' => esc_html__('Primary', 'irax-2022'),
+			'header-navigation' => esc_html__('primary', 'irax-2022'),
 		)
 	);
 
@@ -112,7 +112,7 @@ function irax_2022_scripts()
 {
 	wp_enqueue_style('irax-2022-style', get_stylesheet_uri(), array(), _S_VERSION);
 	// wp_style_add_data('irax-2022-style', 'rtl', 'replace');
-
+	wp_enqueue_script('irax-2022-vendor-js', get_template_directory_uri() . '/assets/js/vendor.js', array('jquery'), _S_VERSION, true);
 	wp_enqueue_script('irax-2022-custom-js', get_template_directory_uri() . '/assets/js/custom.js', array('jquery'), _S_VERSION, true);
 
 	// if (is_singular() && comments_open() && get_option('thread_comments')) {

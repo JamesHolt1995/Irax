@@ -10,8 +10,10 @@
  * @package irax_2022
  */
 
+$img_url = get_template_directory_uri() . '/assets/img/background.svg';
+
 ?>
-<footer id="colophon" class="site-footer">
+<footer style="background-image: url(<?php echo $img_url ?>);" id="colophon" class="site-footer">
 </footer><!-- #colophon -->
 </div><!-- #page -->
 

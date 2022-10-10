@@ -31,39 +31,60 @@
 
 		<header id="masthead" class="header">
 			<div class="header__logo">
-				<svg class="header__svg" id="Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 515.71 255.28">
+				<svg id="Group_7" data-name="Group 7" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 116 57.422">
 					<defs>
-						<style>
-							.cls-1 {
-								fill: url(#linear-gradient);
-							}
-
-							.cls-2 {
-								fill: #2f2b33;
-							}
-						</style>
-						<linearGradient id="linear-gradient" x1="589.16" y1="36.29" x2="342.33" y2="317.33" gradientUnits="userSpaceOnUse">
-							<stop offset="0" stop-color="#5bbfea" />
-							<stop offset="1" stop-color="#a8fad6" />
+						<clipPath id="clip-path">
+							<rect id="Rectangle_2" data-name="Rectangle 2" width="116" height="57.422" fill="#fff" />
+						</clipPath>
+						<clipPath id="clip-path-2">
+							<path id="Path_4" data-name="Path 4" d="M503.675,0a1.524,1.524,0,0,0-1.524,1.524V55.9a1.524,1.524,0,0,0,3.049,0V1.525A1.524,1.524,0,0,0,503.675,0Z" transform="translate(-502.151 -0.001)" fill="none" />
+						</clipPath>
+						<linearGradient id="linear-gradient" x1="-2.035" y1="1.215" x2="-2.03" y2="1.215" gradientUnits="objectBoundingBox">
+							<stop offset="0" stop-color="#5bc0eb" />
+							<stop offset="0.999" stop-color="#a9fbd7" />
+							<stop offset="1" stop-color="#a9fbd7" />
 						</linearGradient>
+						<clipPath id="clip-path-3">
+							<rect id="Rectangle_4" data-name="Rectangle 4" width="116" height="57.422" fill="none" />
+						</clipPath>
 					</defs>
-					<g id="Layer_1-2">
-						<g>
-							<g>
-								<path class="cls-2" d="M52.08,228.17H2.91V70.76H52.08V228.17Z" />
-								<path class="cls-2" d="M163.18,115.13l-16.15-1.16c-15.42,0-25.31,4.85-29.68,14.55v99.65h-49.03V70.76h45.97l1.6,20.22c8.24-15.42,19.73-23.13,34.48-23.13,5.24,0,9.79,.58,13.67,1.75l-.87,45.53Z" />
-								<path class="cls-2" d="M265.15,228.17c-1.75-3.2-3.3-7.9-4.66-14.11-9.02,11.35-21.63,17.02-37.82,17.02-14.84,0-27.45-4.49-37.82-13.46-10.38-8.97-15.57-20.24-15.57-33.82,0-17.07,6.3-29.97,18.91-38.7,12.61-8.73,30.94-13.09,54.99-13.09h15.13v-8.33c0-14.52-6.25-21.78-18.77-21.78-11.64,0-17.46,5.75-17.46,17.25h-49.02c0-15.21,6.47-27.56,19.42-37.05,12.95-9.49,29.46-14.24,49.53-14.24s35.93,4.9,47.57,14.69c11.64,9.8,17.6,23.23,17.89,40.3v69.68c.19,14.45,2.42,25.51,6.69,33.17v2.47h-49.03Zm-30.69-32.01c6.11,0,11.18-1.31,15.2-3.93,4.02-2.62,6.91-5.58,8.65-8.87v-25.17h-14.26c-17.07,0-25.6,7.66-25.6,22.99,0,4.46,1.5,8.07,4.51,10.84,3,2.76,6.84,4.15,11.49,4.15Z" />
-								<path class="cls-2" d="M398.41,114.11l22.84-43.35h50.92l-41.46,76.66,43.5,80.74h-51.21l-24.73-46.55-24.29,46.55h-51.5l43.64-80.74-41.32-76.66h51.5l22.11,43.35Z" />
-							</g>
-							<path class="cls-1" d="M508.93,255.28c-3.74,0-6.78-3.03-6.78-6.78V6.78c0-3.74,3.03-6.78,6.78-6.78s6.78,3.03,6.78,6.78V248.5c0,3.74-3.03,6.78-6.78,6.78Z" />
-							<path class="cls-2" d="M0,30.18c0-6.98,2.52-12.7,7.56-17.17,5.04-4.46,11.59-6.69,19.64-6.69s14.59,2.23,19.64,6.69c5.04,4.46,7.56,10.18,7.56,17.17s-2.52,12.71-7.56,17.17c-5.04,4.46-11.59,6.69-19.64,6.69s-14.6-2.23-19.64-6.69C2.52,42.88,0,37.16,0,30.18Z" />
+					<path id="Path_6" data-name="Path 6" d="M0,0H11.06V35.405H0Z" transform="translate(0.654 15.917)" fill="#fff" />
+					<g id="Group_2" data-name="Group 2">
+						<g id="Group_1" data-name="Group 1" clip-path="url(#clip-path)">
+							<path id="Path_1" data-name="Path 1" d="M89.663,78.488l-3.632-.262q-5.2,0-6.675,3.272v22.415H68.328V68.508h10.34l.36,4.548q2.781-5.2,7.755-5.2a10.752,10.752,0,0,1,3.076.393Z" transform="translate(-52.959 -52.591)" fill="#fff" />
+							<path id="Path_2" data-name="Path 2" d="M190.851,103.914a12.436,12.436,0,0,1-1.047-3.174,10.254,10.254,0,0,1-8.508,3.829,12.559,12.559,0,0,1-8.508-3.027,9.63,9.63,0,0,1-3.5-7.607q0-5.759,4.254-8.7t12.369-2.945h3.4V80.41q0-4.9-4.221-4.9-3.927,0-3.927,3.88H170.138a9.884,9.884,0,0,1,4.368-8.334,18.358,18.358,0,0,1,11.142-3.2q6.773,0,10.7,3.3a11.49,11.49,0,0,1,4.025,9.064V95.9a16.043,16.043,0,0,0,1.505,7.461v.556Zm-6.9-7.2a6.152,6.152,0,0,0,3.42-.883,5.54,5.54,0,0,0,1.947-2V88.175h-3.207q-5.76,0-5.759,5.17a3.156,3.156,0,0,0,1.014,2.438,3.67,3.67,0,0,0,2.585.932" transform="translate(-131.209 -52.591)" fill="#fff" />
+							<path id="Path_3" data-name="Path 3" d="M339.552,80.515l5.137-9.751h11.453l-9.326,17.244,9.784,18.161H345.082L339.519,95.7l-5.465,10.471H322.471l9.817-18.161-9.293-17.244h11.584Z" transform="translate(-249.936 -54.847)" fill="#fff" />
+						</g>
+					</g>
+					<g id="Group_4" data-name="Group 4" transform="translate(112.951 0)">
+						<g id="Group_3" data-name="Group 3" clip-path="url(#clip-path-2)">
+							<rect id="Rectangle_3" data-name="Rectangle 3" width="45.156" height="40.183" transform="matrix(0.66, -0.751, 0.751, 0.66, -28.471, 32.417)" fill="#FF0FA7" />
+						</g>
+					</g>
+					<g id="Group_6" data-name="Group 6">
+						<g id="Group_5" data-name="Group 5" clip-path="url(#clip-path-3)">
+							<path id="Path_5" data-name="Path 5" d="M0,11.684A4.922,4.922,0,0,1,1.7,7.823,6.421,6.421,0,0,1,6.119,6.318a6.423,6.423,0,0,1,4.418,1.505,4.924,4.924,0,0,1,1.7,3.861,4.923,4.923,0,0,1-1.7,3.861,6.42,6.42,0,0,1-4.418,1.505A6.418,6.418,0,0,1,1.7,15.546,4.921,4.921,0,0,1,0,11.684" transform="translate(0 -4.897)" fill="#fff" />
 						</g>
 					</g>
 				</svg>
 			</div><!-- .site-branding -->
 
 			<nav id="site-navigation" class="header__nav">
-				<a href="#about" class="header__nav-button header__nav-button--a button button--dark">About us</a>
-				<a href="#contact" class="header__nav-button header__nav-button--b button button--bright">Contact us</a>
+				<div class="header__menu-wrapper">
+					<?php $location = 'header-navigation' ?>
+					<?php wp_nav_menu(array('theme_location' => $location, 'container' => false, 'menu_class' => 'header__menu')); ?>
+				</div>
+
+
+				<a href="#contact" class="header__nav-button button button--bright">Contact us</a>
+
+				<div id="burger-menu" class="header__burger">
+					<div class="burger">
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
 			</nav><!-- #site-navigation -->
 		</header><!-- #masthead -->
